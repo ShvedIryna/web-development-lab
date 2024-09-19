@@ -1,0 +1,9 @@
+@import "./normalize.min.css";
+
+@import "./global.css";
+
+@import "./header.css";
+@import "./hero.css";
+@import "./storage_bank.css";
+@import "./features.css";
+@import "./footer.css"
