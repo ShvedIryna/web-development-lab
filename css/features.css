@@ -1,5 +1,8 @@
 .features {
-    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
     margin-top: 150px;
 }
 
@@ -10,6 +13,7 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 130%;
+    margin-left: 280px;
 }
 
 .features p {
@@ -20,17 +24,18 @@
     font-weight: 500;
     line-height: 160%;
     width: 584px;
-    margin-left: 508px;
     margin-top: 50px;
+    margin-left: 280px;
 }
 
 .features__grid {
     display: grid;
     grid-template-columns: repeat(2, 442px);
     position: relative;
-    width: 1600px;
+    position: relative;
+    width: 1100px;
     gap: 147px;
-    margin-left: 329px;
+    margin-left: 100px;
     margin-top: 100px;
 }
 
@@ -51,6 +56,8 @@
     font-size: 24px;
     font-weight: 400;
     line-height: 130%;
+    width: 200px;
+    height: 50px;
     margin-left: 280px;
     margin-top: -259px;
     text-align: left;
@@ -71,7 +78,7 @@
     font-weight: 400;
     line-height: 160%;
     margin-left: 280px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .back_search_data,

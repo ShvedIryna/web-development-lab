@@ -1,12 +1,11 @@
 .hero__container {
     display: flex;
-    margin-left: 240px;
-    margin-top: 240px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .hero__title {
     text-align: left;
-    /* вирівнює текст*/
     color: #212353;
     font-family: Helvetica, sans-serif;
     font-size: 80px;
@@ -29,22 +28,19 @@
     margin-top: 50px;
 }
 
-.hero__button {
+.hero__inner a {
+    position: relative;
     background-color: #9C69E2;
     border-radius: 50px;
     border: none;
     width: 170px;
     height: 60px;
     margin-left: 240px;
-    margin-top: 50px;
-}
-
-.hero__button a {
+    padding: 15px 37px;
     color: white;
     font-size: 18px;
     border-radius: 50px;
-    width: 170px;
-    height: 60px;
+    top: 50px;
 }
 
 .first_person {

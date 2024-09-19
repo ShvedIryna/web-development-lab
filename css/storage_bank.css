@@ -3,25 +3,21 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    width: 1117px;
+    border-radius: 50px;
+    background: rgba(240, 99, 184, 0.15);
+    width: 1300px;
     height: 560px;
     margin-left: 240px;
-    margin-top: 100px;
-}
-
-.rectangle_background {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    padding-top: 100px;
+    margin-top: 200px;
 }
 
 .storage_img {
-    object-fit: contain;
+    display: flex;
+    flex-direction: column;
     width: 477px;
     height: 504px;
-    padding-left: 11px;
-    padding-top: 131px;
+    padding-left: 50px;
+    padding-top: 31px;
 }
 
 .storage__inner {
@@ -30,14 +26,13 @@
     position: absolute;
     justify-content: center;
     box-sizing: border-box;
-    /*розміри блоку, а не контенту */
     color: #4B5D68;
     font-family: "Lato", sans-serif;
     font-size: 18px;
     width: 477px;
     height: 504px;
-    padding-left: 65px;
-    padding-top: 125px;
+    padding-top: 50px;
+    padding-left: 150px;
 }
 
 .storage__title {
