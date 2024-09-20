@@ -4,6 +4,7 @@
     justify-content: space-between;
     flex-direction: column;
     margin-top: 150px;
+    margin-right: 250px;
 }
 
 .features h2 {
@@ -31,7 +32,6 @@
 .features__grid {
     display: grid;
     grid-template-columns: repeat(2, 442px);
-    position: relative;
     position: relative;
     width: 1100px;
     gap: 147px;

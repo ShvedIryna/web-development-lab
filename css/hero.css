@@ -1,52 +1,55 @@
 .hero__container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    padding: 100px 200px;
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.hero__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 600px;
+    margin-left: 70px;
 }
 
 .hero__title {
-    text-align: left;
-    color: #212353;
-    font-family: Helvetica, sans-serif;
     font-size: 80px;
-    font-weight: 700;
-    width: 645px;
-    margin-left: 240px;
-    margin-top: 190px;
+    line-height: 1.2;
+    color: #212353;
+    margin-bottom: 20px;
 }
 
 .hero__paragraph {
-    text-align: left;
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    width: 450px;
     color: #4B5D68;
-    font-family: "Lato", sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 28.8px;
-    width: 380px;
-    height: 120px;
-    margin-left: 240px;
-    margin-top: 50px;
 }
 
 .hero__inner a {
-    position: relative;
+    display: inline-block;
     background-color: #9C69E2;
-    border-radius: 50px;
-    border: none;
-    width: 170px;
-    height: 60px;
-    margin-left: 240px;
-    padding: 15px 37px;
-    color: white;
+    padding: 15px 40px;
     font-size: 18px;
     border-radius: 50px;
-    top: 50px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
 }
 
 .first_person {
     position: absolute;
-    width: 885px;
-    height: 468px;
-    right: 112px;
-    top: 336px;
+    right: 0;
+    bottom: 0;
+    max-width: 1200px;
+    height: auto;
+    margin-right: 90px;
+    margin-top: -20;
 }
