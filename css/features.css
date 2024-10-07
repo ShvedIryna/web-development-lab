@@ -1,0 +1,117 @@
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-right: 250px;
+}
+
+.features h2 {
+    text-align: center;
+    color: #212353;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-left: 280px;
+}
+
+.features p {
+    text-align: center;
+    color: var(--1, #4B5D68);
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 160%;
+    width: 584px;
+    margin-top: 50px;
+    margin-left: 280px;
+}
+
+.features__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 442px);
+    position: relative;
+    width: 1100px;
+    gap: 147px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.feature_1,
+.feature_2,
+.feature_3,
+.feature_4 {
+    position: relative;
+    text-align: left;
+}
+
+.feature_1 h3,
+.feature_2 h3,
+.feature_3 h3,
+.feature_4 h3 {
+    color: #212353;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 130%;
+    width: 200px;
+    height: 50px;
+    margin-left: 280px;
+    margin-top: -259px;
+    text-align: left;
+}
+
+.feature_1 p,
+.feature_2 p,
+.feature_3 p,
+.feature_4 p {
+    position: relative;
+    text-align: left;
+    width: 220px;
+    height: 160px;
+    color: var(--1, #4B5D68);
+    font-family: "Lato";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-left: 280px;
+    margin-top: 30px;
+}
+
+.back_search_data,
+.back_24_hours,
+.back_print_out,
+.back_securite_code {
+    position: absolute;
+    width: 442px;
+    height: 358px;
+    margin-left: 109px;
+    z-index: -1;
+}
+
+.search_data,
+.hours_access,
+.print_out,
+.securite_code {
+    width: 232px;
+    height: 211px;
+    margin-left: 15px;
+    margin-top: 100px;
+}
+
+.learn_more {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: var(--2, #212353);
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 160%;
+    letter-spacing: 0.08px;
+    margin-top: 20px;
+    margin-left: 280px;
+}

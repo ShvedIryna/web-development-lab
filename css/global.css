@@ -1,0 +1,30 @@
+body {
+    font-family: "Lato", sans-serif;
+    color: #000;
+    background: linear-gradient(180deg, #F6FAFD 0%, #FFF 19.4%);
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    display: block;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.button {
+    background: #9C69E2;
+    border-radius: 50px;
+    color: #fff;
+    width: 170px;
+}
