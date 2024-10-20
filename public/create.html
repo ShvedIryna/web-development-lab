@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Pool</title>
+    <style>
+        #warning-message {
+            color: red;
+            margin-top: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <h1 class="site-name">Elite Pools</h1>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="info.html">Home</a></li>
+                <li><a href="edit.html">Edit</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Create Pool</h1>
+
+    <form id="pool-form">
+        <input type="text" id="address-input" placeholder="Address" required />
+        <input type="number" id="water-volume-input" placeholder="Water Volume" required />
+        <input type="number" id="max-visitors-input" placeholder="Max Visitors" required />
+        <input type="number" id="price-input" placeholder="Price" required />
+        <button type="submit" id="submit">Create Pool</button>
+    </form>
+    <div id="warning-message"></div>
+
+    <div id="pool-grid"></div>
+
+    <script type="module" src="create.mjs"></script>
+    <script type="module" src="script.mjs"></script>
+
+</body>
+
+</html>

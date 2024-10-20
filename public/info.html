@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pools</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <h1 class="site-name">Elite Pools</h1>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="create.html" class="create-button">Create</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="search_btn">
+        <input type="text" id="search-input" placeholder="Search by address">
+        <button id="search-btn">Search</button>
+    </div>
+
+    <h1>Our Pool Collection</h1>
+
+
+    <div id="total-price-container">
+        <span id="total-price"> Total price: </span>
+    </div>
+
+    <div class="sort-buttons">
+        <button id="sort-asc-btn">Sort by Lowest Price</button>
+        <button id="sort-desc-btn">Sort by Highest Price</button>
+        <button id="total-btn">Count Total Price</button>
+    </div>
+
+    <div id="pool-grid"></div>
+
+    <script type="module" src="create.mjs"></script>
+    <script type="module" src="script.mjs"></script>
+
+    <footer class="footer">
+
+        <div class="footer-content">
+            <p>Elite Pools © 2024.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
