@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Pool</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <h1 class="site-name">Elite Pools</h1>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="info.html">Home</a></li>
+                <li><a href="create.html" class="create-button">Create</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Edit Pool</h1>
+    <form id="pool-form" action="http://localhost:3000/pools" method="POST">
+        <input id="address-input" type="text" name="address" placeholder="Address" required>
+        <input id="water-volume-input" type="number" name="waterVolume" placeholder="Water Volume" required>
+        <input id="max-visitors-input" type="number" name="maxVisitors" placeholder="Max Visitors" required>
+        <input id="price-input" type="number" name="price" placeholder="Price" required>
+        <button type="submit">Edit Pool</button>
+    </form>
+    <p id="warning-message"></p>
+
+    <script src="edit.mjs"></script>
+
+</body>
+
+</html>
