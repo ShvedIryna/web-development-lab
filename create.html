@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Pool</title>
+    <style>
+        #warning-message {
+            color: red;
+            margin-top: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="assets/logo.svg" alt="Elite Pools Logo">
+            <h1 class="site-name">Elite Pools</h1>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="info.html">Home</a></li>
+                <li><a href="edit.html">Edit</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Create Pool</h1>
+
+
+    <form id="pool-form">
+
+        <label for="image-input">Address:</label>
+        <input type="text" id="image-input" placeholder="Image URL" required><br><br>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address-input" name="address" required><br><br>
+
+        <label for="waterVolume">Water Volume (liters):</label>
+        <input type="number" id="water-volume-input" name="waterVolume" required><br><br>
+
+        <label for="maxVisitors">Max Visitors:</label>
+        <input type="number" id="max-visitors-input" name="maxVisitors" required><br><br>
+
+        <label for="price">Price:</label>
+        <input type="number" id="price-input" name="price" required><br><br>
+
+        <div id="warning-message"></div>
+        <button type="submit" class="create-button">Save Pool</button>
+    </form>
+
+    <script src="create.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
