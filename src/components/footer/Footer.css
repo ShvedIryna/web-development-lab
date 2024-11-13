@@ -1,0 +1,18 @@
+.footer {
+    background-color: #1e3a5f;
+    text-align: center;
+    color: white;
+    width: 100%;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.footer-content {
+    position: relative;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.footer p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
